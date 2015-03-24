@@ -1,0 +1,885 @@
+/*RESET*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+ pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s,
+ samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+ canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
+ section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*BODY*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+body{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+}
+
+/*LOADING*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.loader {
+	visibility: hidden;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*HEADER*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+header {
+    /*Size*/
+    height: 3.5%;
+    width: 100%;
+    /*Background*/
+	background-size: 100%;
+    background-image: url("images/header_background.png");
+}
+
+#header_cfprLogo {
+    /*Position*/
+    position: absolute;
+    top: 0;
+    left: -50%;
+}
+
+#header_cfprSmallLogo {
+	/*Etc*/
+    visibility: hidden
+}
+
+#header_userTag{
+	/*Background*/
+	width: 300px;
+	height: 70px;
+	/*Position*/
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#header_menuButton{
+	/*Size*/
+	width: 70px;
+	height: 70px;
+	/*Position*/
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#header_userTagName{
+	/*Text*/
+	font-size: 36px;
+	color: white;
+	font-family: arial;
+	text-align: right;
+	/*Position*/
+	position: relative;
+	float: right;
+	right: 10px;
+	top: 17px;
+	/*Etc*/
+	padding-left: 10px;
+}
+
+
+#header_homeIcon{
+	/*Position*/
+	position: relative;
+	margin-top: 20px;
+	margin-right: 10px;
+	float: right;
+}
+
+/*FOOTER*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+/*LOGIN*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+input {
+    /*Etc*/
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.login_dialogBox {
+    /*Size*/
+    width: 75.1%;
+    height: 16.6%;
+    /*Background*/
+    background-image: url('images/login_inputBackground.png');
+    background-size: 100% 100%;
+    /*Text*/
+    font-size: 1.3vw;
+    font-family: "Calibri", serif;
+    text-align: center;
+}
+
+#login_email {
+    /*Position*/
+    position: absolute;
+    left: 12.5%;
+    top: 11%;
+}
+
+#login_emailText {
+    /*Position*/
+    position: absolute;
+    top: 3.10%;
+    left: 42%;
+    /*Text*/
+    font-size: 1.1vw;
+    font-family: "Calibri", serif;
+}
+
+#login_password {
+    /*Position*/
+    position: absolute;
+    left: 12.5%;
+    top: 39%;
+}
+
+#login_passwordText {
+    /*Position*/
+    position: absolute;
+    top: 31%;
+    left: 36%;
+    /*Text*/
+    font-size: 1.1vw;
+    font-family: "Calibri", serif;
+}
+
+#login_button {
+    /*Position*/
+    position: absolute;
+    top: 73%;
+    left: 42.1%;
+    /*Size*/
+    width: 15%;
+    height: 20%;
+}
+
+#login_loginBox {
+    /*Size*/
+    width: 20.8%;
+    height: 30.5%;
+    /*Position*/
+    position: absolute;
+    left: 39.1%;
+    top: 34.71%;
+    /*Border*/
+   /* border: 2px solid;
+    border-radius: 20px;*/
+	/*Background*/
+	background: url('images/login_loginBox.png') no-repeat;
+	background-size: 100% 100%;
+    /*Etc*/
+    opacity: 1;
+    visibility: visible;
+}
+
+#login_cfprCornerLogo {
+    /*Position*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /*Size*/
+    width: 100%;
+    height: 100%;
+    /*Etc*/
+    visibility: visible;
+}
+
+#login_antiOverflow {
+    /*Size*/
+    width: 26%;
+    height: 50.6%;
+    /*Position*/
+    position: absolute;
+    top: 49.4%;
+    left: 74%;
+    /*Etc*/
+    overflow: hidden;
+    /*Animation*/
+    -webkit-transition: left 0.1 ease-out 2s, opacity 2s ease-out 2s, visibility 2 ease-out 2s;
+    transition: left 0.1 ease-out 2s, opacity 2s ease-out 2s, visibility 2 ease-out 2s;
+}
+
+#login_connexionError {
+    /*Position*/
+    position: absolute;
+    top: 53%;
+    left: 45.2%;
+    /*Text*/
+    font-size: 0.7vw;
+    font-family: "Calibri", serif;
+    color: red;
+	/*Etc*/
+	z-index: 5;
+}
+
+/*MENU ELEVES*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.menuItem_Text {
+    visibility: hidden
+}
+
+menu {
+    /*Position*/
+    margin: auto;
+    position: relative;
+    top: -1000px;
+    /*Size*/
+    width: 640px;
+    height: 640px;
+}
+
+#menuEleves {
+    /*Position*/
+    position: absolute;
+    top: 7%;
+    right: 0;
+    /*Size*/
+    width: 100%;
+    height: 93%;
+}
+
+#menuMouseOverText {
+    /*Text*/
+    text-align: center;
+    font-size: 24px;
+    color: #747474;
+    /*Margin*/
+    margin-top: 45%;
+    margin-bottom: 0%;
+}
+
+#menuEleves_menuItem1 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*Background*/
+    background: url('images/menuEleves_horaire.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menuEleves_menuItem2 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 220px;
+    top: 0;
+    /*Background*/
+    background: url('images/menuEleves_lecteurReseau.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menuEleves_menuItem3 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 440px;
+    top: 0;
+    /*Background*/
+    background: url('images/menuEleves_remise.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menuEleves_menuItem4 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 0;
+    top: 220px;
+    /*Background*/
+    background: url('images/menuEleves_courriel.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menuEleves_menuDescription {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 220px;
+    top: 220px;
+    /*Background*/
+    background-color: #c9c9c9;
+	/*Text*/
+	font-family: Arial;
+}
+
+#menuEleves_menuItem5 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 440px;
+    top: 220px;
+    /*Background*/
+    background: url('images/menuEleves_notes.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menuEleves_menuItem6 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 0;
+    top: 440px;
+    /*Background*/
+    background: url('images/menuEleves_stage.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menuEleves_menuItem7 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 220px;
+    top: 440px;
+    /*Background*/
+    background: url('images/menuEleves_notifications.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#menuEleves_menuItem8 {
+    /*Size*/
+    width: 200px;
+    height: 200px;
+    /*Position*/
+    position: absolute;
+    left: 440px;
+    top: 440px;
+    /*Background*/
+    background: url('images/menuEleves_liens.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*REMISE PROF*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+#remiseProfBody_page{
+	/*Size*/
+	width: 100%;
+	height: 850px;
+}
+
+#remiseProfBody_contenu{
+	/*Size*/
+	width: 800px;
+	height: 85.2%;
+	/*Position*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;	
+
+	/*Background*/
+	background-color: #c9c9c9;
+	/*Border*/
+	border-left: solid #747474 1px;
+	border-right: solid #747474 1px;
+	/*Etc*/
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 5;
+}
+
+#remiseProfBody_topBorder{
+	/*Size*/
+	width: 802px;
+	height: 4%;
+	/*Position*/
+	position: relative;
+	margin: auto;
+	margin-top: 2%;
+	/*Etc*/
+	z-index: 5;
+}
+
+#remiseProfBody_topBorder img{
+	/*Size*/
+	width: 802px;
+	height: 100%;
+	/*Position*/
+	position: relative;
+	margin: auto;
+}
+
+#remiseProfBody_tabFiltre{
+	/*Etc*/
+	cursor: pointer;
+}
+
+#remiseProfBody_formRemiseBar{
+	position: absolute;
+	top: 0px;
+	left: 39px; 	
+}
+
+.remiseProf_documentObject{
+    /*Size*/
+	width: 100%;
+	height: 100px;
+	/*Background*/
+	background-color: #c9c9c9;
+	/*Border*/
+	border-bottom: solid #747474 1px;
+	/*Text*/
+	text-decoration: none;
+	list-style-type: none; 
+	/*Position*/
+	position: relative;
+
+}
+
+.remiseProf_nomEleve{
+	/*Text*/
+	color: #747474;
+	font-size: 16px;
+	font-family: Arial;
+	/*Position*/
+	position: absolute;
+	top: 18px;
+	left: 0;
+}
+
+.remiseProf_nomFichier{
+	/*Text*/
+	color: #747474;
+	font-size: 16px;
+	font-family: Arial;
+	/*Position*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.remiseProf_boutonTelecharger{
+	/*Position*/
+	position: absolute;
+	right: 6%;
+	top: 0px;
+	/*Size*/
+	width: 12%;
+	
+	
+}
+.remiseProf_boutonTelecharger img{
+	/*Size*/
+	width: 100%;
+	height: 100%;
+	/*Etc*/
+	cursor: pointer;
+}
+
+.remiseProf_boutonSupprimer {
+	/*Position*/
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	/*Size*/
+	width: 6%;
+	height: 100%;
+}
+
+.remiseProf_boutonSupprimer img{
+	/*Size*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+	/*Etc*/
+	cursor: pointer;
+}
+
+
+.remiseProf_groupe{
+	/*Text*/
+	color: #747474;
+	font-size: 16px;
+	font-family: Arial;
+	/*Position*/
+	position: absolute;
+	top: 36px;
+	left: 0;
+}
+
+.remiseProf_dateRemise{
+	/*Text*/
+	color: #747474;
+	font-size: 16px;
+	font-family: Arial;
+	/*Position*/
+	position: absolute;
+	top: 54px;
+	left: 0;
+}
+
+.remiseProf_dateReception{
+	/*Text*/
+	color: #747474;
+	font-size: 16px;
+	font-family: Arial;
+	/*Position*/
+	position: absolute;
+	top: 72px;
+	left: 0;
+}
+
+.remiseProf_taille{
+	/*Text*/
+	color: #747474;
+	font-size: 24;
+	font-family: Arial;
+	text-align: right;
+	/*Position*/
+	position: absolute;
+	top: 38px;
+	right: 146px;
+}
+
+.remiseProfBody_menuOut {
+	/*Position*/
+	left: -435px !important;
+}
+
+.remiseProfBody_menuRemiseProf{
+	/*Size*/
+	width: 833px;
+	height: 150px;
+	/*Position*/
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.98%;
+	top: 140px;
+	left: -41px;
+	right: 0;
+	/*Background*/
+	background-color: #c9c9c9;
+	transition: left 0.5s;
+	/*Border*/
+	border: 2px solid #747474;
+	/*Etc*/
+	z-index: 1;
+}
+
+#remisecourlist{
+	/*Position*/
+	position: absolute;
+	top: 20px;
+	left: 5px;
+	/*Size*/
+	width: 183px;
+	height: 20px;
+	/*Text*/
+	color: 747474;
+	font-family: Arial;
+
+}
+
+#remisegrouplist{
+	/*Position*/
+	position: absolute;
+	top: 65px;
+	left: 5px;
+	/*Size*/
+	width: 183px;
+	height: 20px;
+	/*Text*/
+	color: 747474;
+	font-family: Arial;
+}
+
+#remisebutton{
+	/*Position*/
+	position: absolute;
+	left: 75px;
+	top: 95px;
+	/*Size*/
+	height: 50px;
+	width: 50px;
+}
+
+#remisecourslisttext{
+	/*Text*/
+	color: 747474;
+	font-family: Arial;
+	/*Position*/
+	position: absolute;
+	top: 5px;
+	left: 74px;
+}
+
+#remisegrouplisttext{
+	/*Text*/
+	color: 747474;
+	font-family: Arial;
+	/*Position*/
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+
+
+
+/*NOTES PROF*/
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+#notesProfBody_page{
+	/*Size*/
+	width: 100%;
+}
+
+#notesProfBody_contenu{
+	/*Size*/
+	width: 800px;
+	height: 84.8%;
+	/*Position*/
+	position: relative;
+	margin: auto;	
+	/*Background*/
+	background-color: #c9c9c9;
+	/*Border*/
+	border-left: solid #747474 1px;
+	border-right: solid #747474 1px;
+	/*Etc*/
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 5;
+}
+
+#notesProfBody_contenu li{
+	/*Etc*/
+	list-style-type: none;
+}
+
+#notesProfBody_topBorder{
+	/*Size*/
+	width: 802px;
+	height: 4%;
+	/*Position*/
+	position: relative;
+	margin: auto;
+	margin-top: 2%;
+	/*Etc*/
+	z-index: 5;
+	pointer-events: none;
+}
+
+#notesProfBody_topBorder img{
+	/*Size*/
+	width: 802px;
+	height: 100%;
+	/*Position*/
+	position: relative;
+	margin: auto;
+	pointer-events: none;
+}
+
+#notesProfBody_filtre{
+	/*Size*/
+	width: 100%;
+	height: 50px;
+	/*Etc*/
+	z-index: 5;
+	/*Position*/
+	position: relative;
+	/*Border*/
+	border-bottom: 1px 747474 solid;
+}
+
+#courlist{
+	/*Size*/
+	height: 30px;
+	width: 350px;
+	/*Text*/
+	font-family: Arial;
+	font-size: 16px;
+	color: 747474;
+	/*Position*/
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#examlist{
+	/*Size*/
+	height: 30px;
+	width: 350px;
+	/*Text*/
+	font-family: Arial;
+	font-size: 16px;
+	color: 747474;
+	/*Position*/
+	position: absolute;
+	top: 10px;
+	left: 370px;
+}
+
+#exambutton{
+	/*Size*/
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	/*Position*/
+	position: absolute;
+	right: 0;
+}
+
+.notesProf_groupe{
+	/*Background*/
+	background-color: 747474;
+	/*Text*/
+	font-family: Arial;
+	font-size: 20px;
+	color: c9c9c9;
+	/*Size*/
+	height: 20px;
+}
+
+.notesProf_listObject{
+	/*Border*/
+	border-bottom: solid #747474 1px;
+	/*Size*/
+	height: 30px;
+}
+
+.notesProf_nomEleve{
+	/*Position*/
+	position: absolute;
+	left: 0;
+	/*Text*/
+	color: #747474;
+	font-size: 20px;
+	font-family: Arial;
+	/*Etc*/
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.notesProf_boutonCommentaire{
+	/*Size*/
+	width: 30px;
+	height: 30px;
+	/*Position*/
+	position: absolute;
+	right: 60px;
+}
+
+.notesProf_boutonCommentaire img{
+	/*Size*/
+	width: 100%;
+	height: 100%;
+}
+
+.notesProf_boutonState{
+	/*Position*/
+	position: absolute;
+	right: 0px;
+}
+
+.notesProfBody_menuNotesProf{
+	/*Size*/
+	width: 250px;
+	height: 500px;
+	/*Position*/
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5.6%;
+	top: 0px;
+	left: 200px;
+	right: -348px;
+	/*Background*/
+	background-color: #c9c9c9;
+	transition: margin-top 0.5s;
+	/*Border*/
+	border: 2px solid #747474;
+	/*Etc*/
+	z-index: 1;
+}
+
+.notesProfBody_menuOut {
+	/*Position*/
+	margin-top: 4.2% !important;
+}

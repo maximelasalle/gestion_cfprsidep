@@ -1,0 +1,12 @@
+#popup_body
+{
+	/*etc*/
+	overflow:hidden;
+	/*position*/
+    position:absolute;
+    left: 0px;
+    top:0px;
+	/*marges*/
+	margin: 0;
+	padding: 0;
+}

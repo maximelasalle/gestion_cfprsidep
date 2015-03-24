@@ -1,0 +1,106 @@
+/*background*/
+/*position*/
+/*marges*/
+/*texte*/
+/*size*/
+/*etc*/
+
+/*Reset*/
+h1, h2, h3, h4, h5, h6,
+html, body, div, span, object, iframe,
+p, blockquote, pre,
+abbr, address, cite, code,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+fieldset, form, label, legend,
+time, mark, audio, video 
+{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: "Calibri", serif;
+}
+
+/*body*/
+body
+{
+	/*background*/
+	background-color: rgb(240,240,240);
+	/*size*/
+	width: 100%;
+	height: 100%;
+	/*etc*/
+	overflow: hidden;
+}
+
+/*header*/
+header
+{
+	/*background*/
+	background-color: rgb(20,20,20);
+	/*size*/
+	height: 7%;
+	width: 100%;
+	/*position*/
+	position: absolute;
+	top: 0px;
+	/*etc*/
+}
+
+header img
+{
+	/*size*/
+	width: 12%;
+	height: 100%;
+	/*position*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	/*etc*/
+}
+
+/*corps*/
+#corps
+{
+	/*size*/
+	width: 100%;
+	height: 89%;
+	/*position*/
+	position: absolute;
+	top: 7%;
+	left: 0px;
+}
+
+/*footer*/
+footer
+{
+	/*background*/
+	background-color: rgb(20,20,20);
+	/*size*/
+	height: 4%;
+	width: 100%;
+	/*Position*/
+	position: absolute;
+	bottom: 0px;
+	/*etc*/
+	z-index: 2;
+}
+	
+footer img
+{
+	/*size*/
+	width: 2.05%;
+	height: 100%;
+    /*Position*/
+    position: absolute;
+	bottom: 0px;
+	right:0px;
+}

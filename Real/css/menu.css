@@ -1,0 +1,197 @@
+/*Menu*/
+
+.menu, .menu ul 
+{
+    /*background*/
+    background-color: rgb(128,128,128);
+    /*marges*/
+    margin: 0;
+    padding: 0;
+    /*etc*/
+    list-style: none;
+}
+
+.menu 
+{
+    /*position*/
+    position: absolute;
+    top: 17%;
+    /*size*/
+    height: 79%;
+    width: 10.42%;
+    /*etc*/
+}
+
+#fakeBorder1
+{
+    /*position*/
+    position: absolute;
+    top: 7%;
+	left: 10.42%;
+    /*size*/
+    height: 89%;
+    width: 0.15%;
+	/*background*/
+    background-color: rgb(20, 20, 20);
+}
+
+#fakeBorder2
+{
+	/*position*/
+    position: absolute;
+    top: 0%;
+	left: 0;
+	/*size*/
+	height: 0.28%;
+	width: 100%;
+	/*bakground*/
+	background-color: rgb(20, 20, 20); 
+	/*etc*/
+	z-index: 2;
+}
+
+#fakeBorder3
+{
+	/*position*/
+    position: absolute;
+    top: 5.5%;
+	left: 0;
+	/*size*/
+	height: 0.28%;
+	width: 100%;
+	/*background*/
+	background-color: rgb(20, 20, 20); 
+	/*etc*/
+	z-index: 2;
+}
+
+.menu li 
+{
+    /*marges*/
+    padding-top: 0.36%;
+    padding: 0;
+    margin-bottom: 0.13%;
+}
+
+.menu a 
+{
+    /*background*/
+    background-color: rgb(128, 128, 128);
+    /*position*/
+    text-decoration: none;
+    display: block;
+    /*texte*/
+    color: black;
+    font-size: 1.2vw;
+    /*marges*/
+    padding: 1% 4%;
+}
+
+.menu a:hover 
+{
+    /*texte*/
+    color: rgb(10,10,10);
+}
+
+.menu ul li a 
+{
+    /*marges*/
+    padding-left: 12%;
+    /*texte*/
+    font-size: 1.0vw;;
+}
+
+.menu ul li ul a 
+{
+    /*texte*/
+    font-size: 1.0vw;;
+}
+
+.menu ul a 
+{
+    /*background*/
+    background-color: rgb(128,128,128);
+}
+
+.hidden 
+{
+    /*etc*/
+    display: none;
+}
+
+#boutonAccueil 
+{
+    /*background*/
+    background-color: rgb(115,115,115);
+    /*texte*/
+    font-size: font-size: 1.2vw;
+    text-align: center;
+    /*marges*/
+    padding-top: 4%;
+    padding-bottom: 4%;
+    /*etc*/
+}
+
+#boutonAccueil:hover 
+{
+    /*background*/
+    background-color: rgb(105,105,105);
+}
+
+/*Tag*/
+
+#userTag 
+{
+    /*size*/
+    height: 10%;
+    width: 10.42%;
+    /*background*/
+    background-color: rgb(200,200,200);
+	/*position*/
+	position: absolute;
+	top: 7%;
+}
+
+#userName
+{
+    /*texte*/
+    font-size: 1.3vw;
+    /*marge*/
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+#userRole
+{
+    /*texte*/
+    font-size: 1vw;
+    /*marge*/
+    margin-top: -2%;
+    padding-left: 4%;
+}
+
+#userLogout 
+{
+    /*texte*/
+    font-size: 0.88vw;
+    color: rgb(0,178,232);
+    text-decoration: underline;
+    /*marges*/
+    padding-left: 4%;
+	/*position*/
+	position: absolute;
+	top: 72%;
+}
+
+#userLogout :visited
+{
+    /*texte*/
+    font-size: 90%;
+    color: rgb(0,178,232);
+    text-decoration: underline;
+    /*marges*/
+    padding-left: 5px;
+		/*position*/
+	position: absolute;
+	top: 80px;
+}
